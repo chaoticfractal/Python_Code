@@ -1,2 +1,2 @@
 # Python_Code-
-This repo contains Python code that I wrote while learning the language.  
+This repo contains Python code that I wrote while learning the language. I will continute to add more and more code to this while I continue to advance my skills in Python. Currently as of 04/18/2017 it will contain mainly smaill little pieces of code that I wrote while working with sources like codcademy and others. I also have a code that are solutions to problems from Canopy's learning modules that is avaible for free as well. 
