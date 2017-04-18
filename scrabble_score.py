@@ -19,4 +19,4 @@ def scrabble_score(word):
         total = total + (score[i])
     return total
     
-print  scrabble_score("Pusheen")
+print  scrabble_score("Word")
