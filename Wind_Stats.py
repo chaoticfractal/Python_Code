@@ -67,7 +67,7 @@ These data were analyzed in detail in the following article:
 
 from numpy import loadtxt
 
-wind_data = loadtxt('/home/eaznar/Downloads/wind_statistics/wind.data')
+wind_data = loadtxt('<Dir. where file is located>')
 
 data_set = wind_data[:,3:]
 
