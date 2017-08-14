@@ -1,2 +1,2 @@
 # Python_Code-
-This repo contains Python code that I wrote. It will mainly consits of excercises from various sources that covers basics all the way to algorithms. It will also contain solutions to problems from various sources. 
+This repo contains Python code that I have wrote. It contains algorithms that covers the basics all the way to various code "challenges/tests" that I have used to further my skills in the language. 
