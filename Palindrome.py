@@ -1,4 +1,5 @@
-"""This program checks to see if a given string is a permutation of a 
+"""
+This program checks to see if a given string is a permutation of a 
 Palindrome
 """
 
