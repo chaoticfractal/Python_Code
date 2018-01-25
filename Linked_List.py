@@ -1,6 +1,5 @@
 """
-This is a simple linked list that is based off code off an online resource that
-I am using to further my understanding of OOP and Data Structures 
+This is a simple linked list that is based off code off an online resource that I am using to further my understanding of OOP and Data Structures 
 """
 
 class ListNode:  
@@ -57,6 +56,50 @@ class SingleLinkedList:
             print(current_node.data)
             current_node = current_node.next
         
+        return
+    
+    def unordered_search(self, value):
+        #This searches the linked list for a node that has this value
+        
+        current_node = self.head
+        node_id = 1
+        #These define the current node and position 
+        
+        results = []
+        #This is a list of the results 
+        
+        while current_node is not None:
+            if current_node.has_value(value):
+                results.append(node_id)
+                
+            current_node = current_node.next
+            node_id = node_id + 1 
+            #This part jumps to linked node from the results list
+            
+        return results
+    
+    def remove_list_item_by_id(self, item_id):
+        #This removes the item using the item id 
+        
+        current_id = 1 
+        current_node = self.head
+        previous_node = None
+        
+        while current_node is not None:
+            if current_id == item_id:
+                #This is for when we are dealing with the fisrt node 
+                if previous_node is not None:
+                    previous_node.next = current_node.next
+                else:
+                    self.head = current_node.next
+                    #This is the end of the search
+                    return
+            
+            previous_node = current_node
+            current_node = current_node.next
+            current_id = current_id + 1 
+            #This is for interating thorough the whole list 
+            
         return
     
     
