@@ -98,7 +98,7 @@ class SingleLinkedList:
             previous_node = current_node
             current_node = current_node.next
             current_id = current_id + 1 
-            #This is for interating thorough the whole list 
+            #This is for interating though the whole list 
             
         return
     
