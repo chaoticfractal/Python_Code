@@ -1,5 +1,6 @@
 """
-This is a simple linked list that is based off code off an online resource that I am using to further my understanding of OOP and Data Structures 
+This is a simple Node class that is then implemented into both a single and 
+double linked list 
 """
 
 class ListNode:  
